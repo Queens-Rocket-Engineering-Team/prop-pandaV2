@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "226c5870-4123-4efa-a2b3-b42d02f59bb7")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 176.53 68.58)
+		(size 16.51 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21243b6d-fc9e-4696-b2f4-96a9d8b17f22")
+		(property "Sheetname" "ADC Circuitry"
+			(at 176.53 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADCCircuitry.kicad_sch"
+			(at 176.53 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 69.85)
+		(size 22.86 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51db055d-2275-4f1e-94b0-c8fb03c9970a")
+		(property "Sheetname" "Pressure Transducer Measurement"
+			(at 223.52 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PressureTransducerMeasurement.kicad_sch"
+			(at 223.52 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 85.09)
+		(size 24.13 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c3abfb7-eebf-4fa0-8883-27f893278ab8")
+		(property "Sheetname" "Load Cell Measurement"
+			(at 224.79 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoadCellMeasurement.kicad_sch"
+			(at 224.79 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 71.12)
+		(size 12.7 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5ec173b3-a2a2-49a7-aaa2-51911ea3ebad")
+		(property "Sheetname" "Valve Control"
+			(at 55.88 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ValveControl.kicad_sch"
+			(at 55.88 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 48.26)
+		(size 24.13 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "660c76b7-dd0e-46be-bbe9-ad4096625488")
+		(property "Sheetname" "Thermocouple Measurement"
+			(at 223.52 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ThermocoupleMeasurement.kicad_sch"
+			(at 223.52 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 29.21)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fa93f08-739d-4753-8e9a-eafbcf15bffc")
+		(property "Sheetname" "Power Regulation"
+			(at 121.92 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerRegulation.kicad_sch"
+			(at 121.92 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 67.31)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5160962-f32b-431d-bdd1-4f3137fc161d")
+		(property "Sheetname" "ESP32 Breakout"
+			(at 123.19 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32Breakout.kicad_sch"
+			(at 123.19 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
