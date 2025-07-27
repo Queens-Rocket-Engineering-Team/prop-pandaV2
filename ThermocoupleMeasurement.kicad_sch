@@ -4,5 +4,9 @@
 	(generator_version "9.0")
 	(uuid "cd16e06b-a07e-4cc5-9a89-9e58a1e43394")
 	(paper "A4")
+	(title_block
+		(rev "0.1.0")
+		(company "Queen's Rocket Engineering Team")
+	)
 	(lib_symbols)
 )

@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "9092f80c-b9b0-4dae-9dae-281a2e0ecef6")
 	(paper "A4")
+	(title_block
+		(rev "0.1.0")
+		(company "Queen's Rocket Engineering Team")
+	)
 	(lib_symbols
 		(symbol "Device:R_Small_US"
 			(pin_numbers
@@ -1758,6 +1762,50 @@
 		)
 		(uuid "f4462131-151b-40b2-8109-307cff5a9674")
 	)
+	(global_label "VALVE_6_CTL"
+		(shape input)
+		(at 48.26 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0162b545-1aec-4130-b6a6-9a2b79d91492")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4215 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VALVE_1_CTL"
+		(shape input)
+		(at 48.26 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c03294c-dd18-4c75-8e71-5f0fa6e3b30b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4215 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SCL"
 		(shape input)
 		(at 55.88 63.5 180)
@@ -1780,6 +1828,50 @@
 			)
 		)
 	)
+	(global_label "VALVE_5_CTL"
+		(shape input)
+		(at 48.26 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34502f92-b87d-4177-9891-8a20d0c21d14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4215 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VALVE_4_CTL"
+		(shape input)
+		(at 48.26 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42aff5d8-6022-4af6-9cb6-e60e36abbed6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4215 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_DRDY_ADC1"
 		(shape input)
 		(at 55.88 53.34 180)
@@ -1793,6 +1885,28 @@
 		(uuid "61cc5af0-bb28-45f3-a46e-a2d4a2569860")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.1386 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VALVE_3_CTL"
+		(shape input)
+		(at 48.26 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77d4a778-7863-42e4-9d73-2d0a41a8216a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4215 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,6 +1973,28 @@
 		(uuid "dbf474b8-1fae-4ef0-a0e9-19a447c89f05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.1386 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VALVE_2_CTL"
+		(shape input)
+		(at 48.26 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc09423f-1eba-4551-9ab8-d0610383c592")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4215 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

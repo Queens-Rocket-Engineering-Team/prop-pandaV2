@@ -4665,6 +4665,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ADS112C04IPWR"
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C701615"
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ADC Number" "2"
 			(at 99.06 134.62 0)
 			(effects
@@ -5465,6 +5483,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ADS112C04IPWR"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C701615"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d336f23-888b-4805-8e54-9167fbdf5eac")
 		)
@@ -5715,6 +5751,24 @@
 			)
 		)
 		(property "I2C Address" "100 0100"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C701615"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ADS112C04IPWR"
 			(at 220.98 83.82 0)
 			(effects
 				(font
@@ -6968,6 +7022,24 @@
 			)
 		)
 		(property "I2C Address" "100 0101"
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ADS112C04IPWR"
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C701615"
 			(at 220.98 134.62 0)
 			(effects
 				(font

@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "226c5870-4123-4efa-a2b3-b42d02f59bb7")
 	(paper "A4")
+	(title_block
+		(rev "0.1.0")
+		(company "Queen's Rocket Engineering Team")
+	)
 	(lib_symbols)
 	(sheet
 		(at 176.53 68.58)
