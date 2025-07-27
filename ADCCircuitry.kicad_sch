@@ -3410,7 +3410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 62.23 115.57 0)
 			(effects
 				(font
@@ -3646,6 +3646,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "ED10563-ND"
 			(at 201.93 40.64 0)
 			(effects
 				(font
@@ -4072,7 +4081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 62.23 64.77 0)
 			(effects
 				(font
@@ -4137,7 +4146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 184.15 115.57 0)
 			(effects
 				(font
@@ -4665,6 +4674,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ADS112C04IPWR"
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C701615"
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ADC Number" "2"
 			(at 99.06 134.62 0)
 			(effects
@@ -5007,7 +5034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 184.15 64.77 0)
 			(effects
 				(font
@@ -5465,6 +5492,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ADS112C04IPWR"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C701615"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6d336f23-888b-4805-8e54-9167fbdf5eac")
 		)
@@ -5723,6 +5768,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C701615"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ADS112C04IPWR"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e3fc5f0-72d1-41cd-8f74-097daf7c18fa")
 		)
@@ -5889,6 +5952,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "ED10563-ND"
 			(at 63.5 40.64 0)
 			(effects
 				(font
@@ -6375,6 +6447,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "ED10563-ND"
 			(at 63.5 27.94 0)
 			(effects
 				(font
@@ -6976,6 +7057,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ADS112C04IPWR"
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C701615"
+			(at 220.98 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d32c77c-6e7a-4ec3-8bca-588e4a8e727d")
 		)
@@ -7230,6 +7329,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "ED10563-ND"
 			(at 201.93 27.94 0)
 			(effects
 				(font

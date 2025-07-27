@@ -1494,48 +1494,14 @@
 		(uuid "00be4247-8925-40ab-808d-34f89393a317")
 	)
 	(junction
-		(at 73.66 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e95b768-bbbe-4a5e-a4e1-a630fc3f6f54")
-	)
-	(junction
-		(at 88.9 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3707da23-56ec-45c1-a1b5-5359b9f11f1a")
-	)
-	(junction
 		(at 58.42 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55f60b4b-72fc-4128-bace-a7b8d1487188")
 	)
-	(junction
-		(at 81.28 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9962174-c73e-4d9a-8dbe-b321f2f7835a")
-	)
-	(junction
-		(at 96.52 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d597aeb7-e9b7-4cae-8f6c-4cf684582bd5")
-	)
 	(wire
 		(pts
-			(xy 73.66 41.91) (xy 73.66 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "095e2df2-1729-4eca-bec0-5353ea5c414c")
-	)
-	(wire
-		(pts
-			(xy 73.66 60.96) (xy 104.14 60.96)
+			(xy 55.88 60.96) (xy 104.14 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1555,27 +1521,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 88.9 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dc7a2f2-0e36-4066-95ce-ab4c75e1a459")
-	)
-	(wire
-		(pts
-			(xy 55.88 60.96) (xy 73.66 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "411e1403-fbc1-4b9a-a681-6464239b90c6")
-	)
-	(wire
-		(pts
-			(xy 81.28 58.42) (xy 104.14 58.42)
+			(xy 55.88 58.42) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1531,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 55.88) (xy 104.14 55.88)
+			(xy 55.88 55.88) (xy 104.14 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1605,17 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 39.37) (xy 96.52 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cc2cf2b-3d53-47b2-b82d-56ba358b1214")
-	)
-	(wire
-		(pts
-			(xy 96.52 53.34) (xy 104.14 53.34)
+			(xy 55.88 53.34) (xy 104.14 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1635,36 +1571,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 41.91) (xy 88.9 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef97e20-c8c0-4ea9-bf96-257bcebd9595")
-	)
-	(wire
-		(pts
-			(xy 96.52 34.29) (xy 96.52 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94bc1b4f-11d2-42f0-a725-f55188acdaa8")
-	)
-	(wire
-		(pts
-			(xy 55.88 55.88) (xy 88.9 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c4e0e2-505a-4c8c-b82d-220e42fcdd67")
-	)
-	(wire
-		(pts
 			(xy 55.88 66.04) (xy 58.42 66.04)
 		)
 		(stroke
@@ -1672,26 +1578,6 @@
 			(type default)
 		)
 		(uuid "9bd0f11a-764b-4490-9034-d8a24a18b119")
-	)
-	(wire
-		(pts
-			(xy 73.66 46.99) (xy 73.66 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d940b75-bd1d-49e8-a50e-a2b8c4b33acd")
-	)
-	(wire
-		(pts
-			(xy 55.88 53.34) (xy 96.52 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a357f2bf-efef-4511-bf48-ac7cfd1cdf37")
 	)
 	(wire
 		(pts
@@ -1712,36 +1598,6 @@
 			(type default)
 		)
 		(uuid "aaf72184-54d2-45ea-9079-6c9cf4943dd8")
-	)
-	(wire
-		(pts
-			(xy 81.28 44.45) (xy 81.28 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb8c0082-29d1-4fa2-92ba-5da1f399a7df")
-	)
-	(wire
-		(pts
-			(xy 81.28 39.37) (xy 81.28 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cab24476-216c-43b3-bf68-cc7d927e7d1d")
-	)
-	(wire
-		(pts
-			(xy 55.88 58.42) (xy 81.28 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d47c4129-3f5c-47f3-9f73-a6729a78394f")
 	)
 	(wire
 		(pts
@@ -1798,6 +1654,28 @@
 		(uuid "1c03294c-dd18-4c75-8e71-5f0fa6e3b30b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.4215 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAFE_24V_CTL"
+		(shape input)
+		(at 48.26 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d6c6025-137b-4c44-ab23-6aacb9cc79e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.0306 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,278 +1972,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 73.66 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2af0509e-81fb-4d18-8206-7d7507b99f66")
-		(property "Reference" "R3"
-			(at 76.2 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 76.2 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71eab47d-b4f0-4736-bcea-52939874ad1e")
-		)
-		(pin "1"
-			(uuid "a09f4afb-83c1-4838-9f29-df3ea122f780")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 96.52 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32203824-cbca-4ad5-8653-03da56b50509")
-		(property "Reference" "R6"
-			(at 99.06 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 99.06 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 96.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e65af6f4-649a-4098-8d10-9f9e537bed9c")
-		)
-		(pin "1"
-			(uuid "22918a15-bfcd-42ec-964c-ce4737cf5293")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 88.9 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "512d31d7-3bbf-497d-94f1-bbe8f2bd473f")
-		(property "Reference" "#PWR032"
-			(at 88.9 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 88.9 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "898ec8bf-0d87-4b2a-a2cf-f39c1ef79367")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 73.66 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "625649b7-a10a-4f80-82c2-ecd07093d47b")
-		(property "Reference" "#PWR030"
-			(at 73.66 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 73.66 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "777acdab-da86-409b-950b-58c234eaa22b")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 66.04 30.48 0)
 		(unit 1)
@@ -2426,76 +2032,6 @@
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 81.28 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9090e75d-53d8-4fcd-96f4-039f395c7e65")
-		(property "Reference" "R4"
-			(at 83.82 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 83.82 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 81.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 81.28 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fced3508-c8c8-4b2a-a15b-bf41afa3e2c7")
-		)
-		(pin "1"
-			(uuid "b5444447-71ba-4b17-811e-e562a7fea3b0")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2867,208 +2403,6 @@
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 96.52 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc44be63-9f90-4dff-a027-e6052d91f152")
-		(property "Reference" "#PWR033"
-			(at 96.52 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 96.52 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 96.52 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d572181-46dc-4928-9d07-b34eb14be70c")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 88.9 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed1ae2a0-ae9a-46ed-af42-7cd47686dbef")
-		(property "Reference" "R5"
-			(at 91.44 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3k"
-			(at 91.44 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 88.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba8b5a68-b198-40f2-b17c-3d5d61afc274")
-		)
-		(pin "1"
-			(uuid "41c7e0dd-1fe0-4005-82a6-478b7e9666ef")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 81.28 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f700f508-7bf8-4a64-a502-8e0b1c9e67d2")
-		(property "Reference" "#PWR031"
-			(at 81.28 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 81.28 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 81.28 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abfbedf6-b000-4ee4-9fd2-e13f80d09357")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/e5160962-f32b-431d-bdd1-4f3137fc161d"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
