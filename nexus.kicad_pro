@@ -762,6 +762,18 @@
           "label": "DK_Datasheet_Link",
           "name": "DK_Datasheet_Link",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Link",
+          "name": "Digikey Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ordering Link",
+          "name": "Ordering Link",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -833,16 +845,16 @@
       "Power Regulation"
     ],
     [
-      "660c76b7-dd0e-46be-bbe9-ad4096625488",
-      "Thermocouple Measurement"
-    ],
-    [
       "51db055d-2275-4f1e-94b0-c8fb03c9970a",
       "Pressure Transducer Measurement"
     ],
     [
       "5c3abfb7-eebf-4fa0-8883-27f893278ab8",
       "Load Cell Measurement"
+    ],
+    [
+      "4e09186f-4067-4c22-bbd5-0048a728fd95",
+      "Ignitor Control"
     ]
   ],
   "text_variables": {}

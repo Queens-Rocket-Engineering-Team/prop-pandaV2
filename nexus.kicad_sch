@@ -52,6 +52,48 @@
 		)
 	)
 	(sheet
+		(at 55.245 114.3)
+		(size 13.335 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e09186f-4067-4c22-bbd5-0048a728fd95")
+		(property "Sheetname" "Ignitor Control"
+			(at 55.245 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ignitor_Control.kicad_sch"
+			(at 55.245 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 223.52 69.85)
 		(size 22.86 6.35)
 		(exclude_from_sim no)
@@ -173,48 +215,6 @@
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 223.52 48.26)
-		(size 24.13 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "660c76b7-dd0e-46be-bbe9-ad4096625488")
-		(property "Sheetname" "Thermocouple Measurement"
-			(at 223.52 47.5484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ThermocoupleMeasurement.kicad_sch"
-			(at 223.52 60.2746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
-					(page "6")
 				)
 			)
 		)
