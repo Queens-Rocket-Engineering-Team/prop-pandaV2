@@ -5283,7 +5283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADS112C04IPWR:SOP65P640X120-16N"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 223.52 128.27 0)
 			(effects
 				(font
@@ -6236,7 +6236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADS112C04IPWR:SOP65P640X120-16N"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 223.52 77.47 0)
 			(effects
 				(font
@@ -6512,7 +6512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADS112C04IPWR:SOP65P640X120-16N"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 345.44 77.47 0)
 			(effects
 				(font
@@ -8002,7 +8002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADS112C04IPWR:SOP65P640X120-16N"
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
 			(at 345.44 128.27 0)
 			(effects
 				(font
