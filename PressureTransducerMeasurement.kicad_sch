@@ -1287,6 +1287,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 187.96 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "258b5aae-2725-412a-9a85-3eafdc7cbcaa")
+		(property "Reference" "R38"
+			(at 190.5 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "250"
+			(at 190.5 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sense resistor. High accuracy +- 0.1%"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRE07250RL"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C861779"
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be69b704-1e42-482c-8abb-5e00c9a75d12")
+		)
+		(pin "2"
+			(uuid "ecf1680a-aa0a-400a-a242-18dc5b593d4e")
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 95.25 106.68 0)
 		(unit 1)
@@ -1380,7 +1468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 81.28 0)
 			(effects
 				(font
@@ -1507,16 +1595,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 185.42 81.28 0)
+		(at 143.51 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "529b987a-dde4-4408-9bc1-7cbfcf24940a")
-		(property "Reference" "R5"
-			(at 187.96 80.0099 0)
+		(uuid "4ce98390-7ebb-4363-887b-b215c39840a7")
+		(property "Reference" "R37"
+			(at 146.05 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1613,7 @@
 			)
 		)
 		(property "Value" "250"
-			(at 187.96 82.5499 0)
+			(at 146.05 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,8 +1621,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 185.42 81.28 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,7 +1631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 81.28 0)
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1640,7 @@
 			)
 		)
 		(property "Description" "Sense resistor. High accuracy +- 0.1%"
-			(at 185.42 81.28 0)
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1649,7 @@
 			)
 		)
 		(property "MPN" "RT0603BRE07250RL"
-			(at 185.42 81.28 0)
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1658,7 @@
 			)
 		)
 		(property "LCSC" "C861779"
-			(at 185.42 81.28 0)
+			(at 143.51 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,15 +1667,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a605b75f-4bfe-4597-9e43-3c0f6c450e0c")
+			(uuid "7a7ea1ad-0857-4640-9bf7-05ee775e49ff")
 		)
 		(pin "2"
-			(uuid "657cdfbc-2edb-4713-9a7d-4abe46acdaba")
+			(uuid "2b428657-f632-4d75-900d-77d64306f8da")
 		)
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
-					(reference "R5")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -1659,182 +1747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 143.51 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6810c861-8499-433f-a7de-0ed24ca4d1df")
-		(property "Reference" "R37"
-			(at 146.05 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "250"
-			(at 146.05 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sense resistor. High accuracy +- 0.1%"
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRE07250RL"
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C861779"
-			(at 143.51 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2a96d2a-6845-42db-ae7d-642e0ca42225")
-		)
-		(pin "2"
-			(uuid "5ae4e64d-9c3e-4ecc-b299-cb8fd1e89bf8")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 99.06 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a59be35-2461-4777-ba3a-55cdf5376a7b")
-		(property "Reference" "R6"
-			(at 101.6 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "250"
-			(at 101.6 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sense resistor. High accuracy +- 0.1%"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRE07250RL"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C861779"
-			(at 99.06 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9c7e48d-8a14-4fdf-af83-bd3d7623d398")
-		)
-		(pin "2"
-			(uuid "aae4883b-0761-4a7d-8dad-a56575adccf3")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 124.46 0)
 		(unit 1)
@@ -1894,6 +1806,94 @@
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 185.42 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fe1f238-eedd-4dfc-9021-1cb1e3688804")
+		(property "Reference" "R5"
+			(at 187.96 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "250"
+			(at 187.96 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sense resistor. High accuracy +- 0.1%"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRE07250RL"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C861779"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aed3d02-c8d1-4e18-8d0c-7df6b28222c7")
+		)
+		(pin "2"
+			(uuid "a074857a-41c5-4a10-aa33-11c2ee03e759")
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2516,16 +2516,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 142.24 81.28 0)
+		(at 99.06 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac871228-7e8f-4add-8ea0-fc0d4bd2a7c7")
-		(property "Reference" "R4"
-			(at 144.78 80.0099 0)
+		(uuid "b0ff6212-c49b-4b18-94a4-ec006f692f23")
+		(property "Reference" "R6"
+			(at 101.6 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2534,7 @@
 			)
 		)
 		(property "Value" "250"
-			(at 144.78 82.5499 0)
+			(at 101.6 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,8 +2542,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 142.24 81.28 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2552,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 81.28 0)
+			(at 99.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2561,7 @@
 			)
 		)
 		(property "Description" "Sense resistor. High accuracy +- 0.1%"
-			(at 142.24 81.28 0)
+			(at 99.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2570,7 @@
 			)
 		)
 		(property "MPN" "RT0603BRE07250RL"
-			(at 142.24 81.28 0)
+			(at 99.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2579,7 @@
 			)
 		)
 		(property "LCSC" "C861779"
-			(at 142.24 81.28 0)
+			(at 99.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,15 +2588,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "58add36f-010f-4c3c-a8ba-a53c6fb2fba3")
+			(uuid "3fd948bc-ced6-4d4d-8c71-ef7c226b4f35")
 		)
 		(pin "2"
-			(uuid "4cfe69d5-4233-48e0-a710-da1f674bbe69")
+			(uuid "9ff4b6b7-e90e-45a1-b738-3bde03873f38")
 		)
 		(instances
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2662,6 +2662,94 @@
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 142.24 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be37985d-7f0e-47aa-af8d-f3aceb82f9f2")
+		(property "Reference" "R4"
+			(at 144.78 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "250"
+			(at 144.78 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sense resistor. High accuracy +- 0.1%"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0603BRE07250RL"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C861779"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "865b66f5-1290-451f-b742-c18fe5a955bd")
+		)
+		(pin "2"
+			(uuid "4049f987-0705-481e-a7fd-db87eaa646ba")
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2794,94 +2882,6 @@
 			(project "nexus"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 187.96 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fadbe1d9-f2b0-4d9d-bac2-64ad3e450018")
-		(property "Reference" "R38"
-			(at 190.5 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "250"
-			(at 190.5 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sense resistor. High accuracy +- 0.1%"
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RT0603BRE07250RL"
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C861779"
-			(at 187.96 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b6cb0b6-a205-44d6-bf77-0eb761760fb2")
-		)
-		(pin "2"
-			(uuid "b808e391-6ced-444c-beec-ed73a891dd4a")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/51db055d-2275-4f1e-94b0-c8fb03c9970a"
-					(reference "R38")
 					(unit 1)
 				)
 			)

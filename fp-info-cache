@@ -1,4 +1,4 @@
-24740866528811542
+24746127761558777
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -43805,6 +43805,13 @@ Surface mounted socket strip SMD 2x40 2.54mm double row
 0
 80
 80
+Connector_PinSocket_2.54mm
+Untitled
+
+
+0
+44
+44
 Connector_RJ
 RJ9_Evercom_5301-440xxx_Horizontal
 Evercom 5301-4P4C RJ9 receptacle, unshielded, https://datasheet.lcsc.com/lcsc/2207051802_EVERCOM-5301-4P4C_C3097715.pdf
@@ -58468,8 +58475,8 @@ L_12.5x12.5mm_SXNSMDRS1275
 
 
 0
-0
-0
+2
+2
 Inductor_SMD
 L_12x12mm_H4.5mm
 Choke, SMD, 12x12mm 4.5mm height
@@ -65869,6 +65876,20 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+ESP32_Devkit_C1_Noah
+
+
+0
+44
+44
+Library
+Untitled
+
+
+0
+44
+44
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
