@@ -3828,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 134.62) (xy 109.22 134.62)
+			(xy 104.14 134.62) (xy 113.03 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3956,6 +3956,96 @@
 		)
 		(uuid "03a2cd83-c9de-4d3a-b245-561fec5848ed")
 	)
+	(label "+24V_POST_LOCKOUT"
+		(at 31.75 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a56c578-0fff-420b-a0a7-ce42e826f0d7")
+	)
+	(label "+10V_OUT"
+		(at 223.52 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f7e09b3-a9bd-4f64-8deb-d87d0383681f")
+	)
+	(label "+10V_REG_BOOT"
+		(at 175.26 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65a8d9d8-8048-4879-93fe-0662ca8c6357")
+	)
+	(label "LOCKOUT_RLY_CTRL_FET"
+		(at 95.25 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fa52f2b-edf4-403b-b86c-a614931c5eae")
+	)
+	(label "+10V_SENSE"
+		(at 180.34 49.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8dd16733-1e2e-434d-b693-527a9ea62d6a")
+	)
+	(label "LOCKOUT_RLY_CTRL_MCU"
+		(at 109.22 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd19a005-c38c-400f-8783-1164cd62091a")
+	)
+	(label "+24V_PRE_LOCKOUT"
+		(at 31.75 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c63567ae-d249-4cd6-b0e4-52484491e431")
+	)
+	(label "LOCKOUT_RLY_+VE"
+		(at 58.42 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1397587-8a77-4bcf-a2c2-f4a24a373544")
+	)
+	(label "+10V_REG_PH"
+		(at 189.23 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9112fd9-5c88-40ca-85ef-a94cc161f23e")
+	)
 	(label "VREG_EN"
 		(at 142.24 95.25 180)
 		(effects
@@ -3978,7 +4068,7 @@
 	)
 	(global_label "SAFE_24V_CTL"
 		(shape input)
-		(at 109.22 134.62 0)
+		(at 113.03 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3988,7 +4078,7 @@
 		)
 		(uuid "11848a76-e385-44f5-a0d4-28d32b93e21a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4494 134.62 0)
+			(at 129.2594 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 252.73 78.74 0)
 			(effects
 				(font
@@ -7017,7 +7107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 252.73 33.02 0)
 			(effects
 				(font
@@ -7051,94 +7141,6 @@
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 63.5 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8642bb27-82fd-4b59-8d93-8907e5f73717")
-		(property "Reference" "R14"
-			(at 66.04 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 66.04 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 63.5 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 63.5 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAJ0103T5E"
-			(at 63.5 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15401"
-			(at 63.5 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d636153-7c04-477c-b664-2aeb70a85462")
-		)
-		(pin "1"
-			(uuid "a94cd144-f465-4480-8b1e-5a90b24e7d1d")
-		)
-		(instances
-			(project "nexus"
-				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
-					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7879,6 +7881,94 @@
 			(project ""
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 63.5 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd001867-53f5-466a-b21c-31199ad662c7")
+		(property "Reference" "R39"
+			(at 66.04 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 66.04 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25531"
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGJ0103TCE"
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a191fddd-efba-4a55-a9b3-7eb2849e4e14")
+		)
+		(pin "1"
+			(uuid "fe0381ab-3a5a-4b3e-b371-5189378a97c3")
+		)
+		(instances
+			(project "nexus"
+				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7/9fa93f08-739d-4753-8e9a-eafbcf15bffc"
+					(reference "R39")
 					(unit 1)
 				)
 			)

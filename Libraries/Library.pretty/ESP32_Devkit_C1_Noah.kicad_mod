@@ -504,7 +504,7 @@
 		(remove_unused_layers no)
 		(uuid "665ab9b3-969f-4363-8055-536dc217b3d5")
 	)
-	(pad "5VIN" thru_hole oval
+	(pad "5V" thru_hole oval
 		(at -12.75 24.15)
 		(size 1.7 1.7)
 		(drill 1)

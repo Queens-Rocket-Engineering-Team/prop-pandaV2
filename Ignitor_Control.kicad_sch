@@ -1343,12 +1343,6 @@
 		(uuid "184b177f-547d-4881-9760-952b4d3cf8ed")
 	)
 	(junction
-		(at 93.98 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a242d0f-22a2-4e70-b05a-39447b3538cd")
-	)
-	(junction
 		(at 146.05 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1426,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 161.29 71.12)
+			(xy 161.29 55.88) (xy 161.29 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1466,17 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 83.82) (xy 93.98 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aba9e3a-1b2c-4ccc-a435-4aa5253b7ff8")
-	)
-	(wire
-		(pts
-			(xy 180.34 73.66) (xy 185.42 73.66)
+			(xy 180.34 73.66) (xy 199.39 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1554,6 +1538,16 @@
 		)
 		(uuid "de6133b2-4fcc-46b0-a637-f6fc4c5ce0b9")
 	)
+	(label "IGNITOR_RLY_+VE"
+		(at 135.89 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02177825-2a9c-47f4-a0e0-fa4ea6c8fc7c")
+	)
 	(label "IGNITOR_SOURCE"
 		(at 100.33 105.41 0)
 		(effects
@@ -1563,6 +1557,46 @@
 			(justify left bottom)
 		)
 		(uuid "0d01ce62-4e65-4c75-bfa0-5895bee6450e")
+	)
+	(label "IGNITOR_CTL_FET"
+		(at 171.45 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1616b308-f062-437e-8ed5-007e0b35b823")
+	)
+	(label "+24V_SAFE"
+		(at 161.29 58.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55025a70-8d1c-4483-89f5-3b33d31e98ce")
+	)
+	(label "+24V_SAFE"
+		(at 102.87 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90054d94-97e7-4dad-88dd-867ce1601eee")
+	)
+	(label "IGNITOR_CTL_MCU"
+		(at 182.88 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dfedeed-fbc2-4834-a541-766364bb2c03")
 	)
 	(label "IGNITOR_RET"
 		(at 100.33 118.11 0)
@@ -1576,7 +1610,7 @@
 	)
 	(global_label "+24V_SAFE"
 		(shape input)
-		(at 161.29 68.58 90)
+		(at 161.29 55.88 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1586,7 +1620,7 @@
 		)
 		(uuid "0044269f-5506-4570-b98f-f8c4dc12d9c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 55.0115 90)
+			(at 161.29 42.3115 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1632,7 @@
 	)
 	(global_label "IGNITOR_CTL"
 		(shape input)
-		(at 185.42 73.66 0)
+		(at 199.39 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1608,7 +1642,7 @@
 		)
 		(uuid "46f62361-620e-4d2c-bc7f-8d719031b87d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.0167 73.66 0)
+			(at 213.9867 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
