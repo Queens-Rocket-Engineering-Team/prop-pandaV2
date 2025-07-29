@@ -1745,25 +1745,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 6.35 0)
+			(property "Reference" "J5"
+				(at 3.81 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "XT60-M"
-				(at 0 -5.08 0)
+				(at 3.81 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "XT60-M:AMASS_XT60-M"
+			(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1911,6 +1909,15 @@
 					(hide yes)
 				)
 			)
+			(property "Ordering Link" "https://www.amazon.ca/XT60PW-Connector-Adapter-Battery-%EF%BC%885Pairs%EF%BC%89/dp/B09XTN9N9S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "XT60-M_0_0"
 				(polyline
 					(pts
@@ -2042,6 +2049,8 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "XT60-M_1_0"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 5.08)
@@ -2052,7 +2061,7 @@
 							)
 						)
 					)
-					(number "P"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2070,7 +2079,7 @@
 							)
 						)
 					)
-					(number "N"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6452,10 +6461,10 @@
 				(hide yes)
 			)
 		)
-		(pin "P"
+		(pin "2"
 			(uuid "5fdec105-3be2-47dd-bf6a-aa5b007c0f26")
 		)
-		(pin "N"
+		(pin "1"
 			(uuid "cd1425ff-8f6f-47ed-a361-c9692190b30c")
 		)
 		(instances
