@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ignitor Control")
-		(rev "0.1.0")
+		(rev "1.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols
@@ -1679,7 +1679,7 @@
 		(at 127 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2053,7 +2053,7 @@
 		(at 105.41 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

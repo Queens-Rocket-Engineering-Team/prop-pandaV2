@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Pressure Transducer Measurement")
-		(rev "0.1.0")
+		(rev "1.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols
@@ -1050,7 +1050,7 @@
 		(at 194.31 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1138,7 +1138,7 @@
 		(at 196.85 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1305,7 +1305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "250R"
 			(at 190.5 119.3799 0)
 			(effects
 				(font
@@ -1459,7 +1459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "250R"
 			(at 101.6 82.5499 0)
 			(effects
 				(font
@@ -1612,7 +1612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "250R"
 			(at 146.05 119.3799 0)
 			(effects
 				(font
@@ -1830,7 +1830,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "250R"
 			(at 187.96 82.5499 0)
 			(effects
 				(font
@@ -1970,7 +1970,7 @@
 		(at 107.95 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2058,7 +2058,7 @@
 		(at 151.13 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2277,7 +2277,7 @@
 		(at 152.4 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2365,7 +2365,7 @@
 		(at 107.95 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2533,7 +2533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "250R"
 			(at 101.6 119.3799 0)
 			(effects
 				(font
@@ -2686,7 +2686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250"
+		(property "Value" "250R"
 			(at 144.78 82.5499 0)
 			(effects
 				(font

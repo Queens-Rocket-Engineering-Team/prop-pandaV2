@@ -5,7 +5,7 @@
 	(uuid "257586dd-10cc-46d5-bce3-f26db50519be")
 	(paper "A4")
 	(title_block
-		(rev "0.1.0")
+		(rev "1.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols
@@ -4723,7 +4723,7 @@
 		(at 116.84 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4e31dd3f-40e8-47e4-b2a4-a72e18825fc3")
@@ -6774,7 +6774,7 @@
 		(at 116.84 29.21 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b6ae3a68-3714-45b9-beab-d4e7e3df326b")

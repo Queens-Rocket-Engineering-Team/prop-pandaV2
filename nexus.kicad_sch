@@ -5,7 +5,7 @@
 	(uuid "226c5870-4123-4efa-a2b3-b42d02f59bb7")
 	(paper "A4")
 	(title_block
-		(rev "0.1.0")
+		(rev "1.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols)

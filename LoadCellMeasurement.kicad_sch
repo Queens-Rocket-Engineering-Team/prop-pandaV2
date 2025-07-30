@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Load Cell Measurement")
-		(rev "0.1.0")
+		(rev "1.0.0")
 		(company "Queen's Rocket Engineering Team")
 	)
 	(lib_symbols
@@ -1040,7 +1040,7 @@
 		(at 111.76 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1312,7 +1312,7 @@
 		(at 182.88 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
