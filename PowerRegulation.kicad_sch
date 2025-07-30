@@ -1745,7 +1745,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J5"
+			(property "Reference" "J12"
 				(at 3.81 10.16 0)
 				(effects
 					(font
@@ -2061,7 +2061,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "P"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2079,7 +2079,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "N"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6461,10 +6461,10 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(pin "N"
 			(uuid "5fdec105-3be2-47dd-bf6a-aa5b007c0f26")
 		)
-		(pin "1"
+		(pin "P"
 			(uuid "cd1425ff-8f6f-47ed-a361-c9692190b30c")
 		)
 		(instances

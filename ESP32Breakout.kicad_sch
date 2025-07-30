@@ -2970,7 +2970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm"
+		(property "Footprint" "Library:ESP32_Devkit_C1_Noah"
 			(at 142.748 134.112 0)
 			(effects
 				(font

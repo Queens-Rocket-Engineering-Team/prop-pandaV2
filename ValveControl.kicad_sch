@@ -4025,7 +4025,7 @@
 		(fields_autoplaced yes)
 		(uuid "60fada72-a93b-4a12-b76c-4aff38e726ed")
 		(property "Reference" "J7"
-			(at 137.16 152.3999 0)
+			(at 135.89 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +4034,7 @@
 			)
 		)
 		(property "Value" "Valve_3_PWR"
-			(at 137.16 154.9399 0)
+			(at 135.89 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
