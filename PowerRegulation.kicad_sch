@@ -2061,7 +2061,7 @@
 							)
 						)
 					)
-					(number "P"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2079,7 +2079,7 @@
 							)
 						)
 					)
-					(number "N"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6461,10 +6461,10 @@
 				(hide yes)
 			)
 		)
-		(pin "N"
+		(pin "2"
 			(uuid "5fdec105-3be2-47dd-bf6a-aa5b007c0f26")
 		)
-		(pin "P"
+		(pin "1"
 			(uuid "cd1425ff-8f6f-47ed-a361-c9692190b30c")
 		)
 		(instances
