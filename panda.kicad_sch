@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
 					(page "4")
 				)
@@ -86,7 +86,7 @@
 			)
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
 					(page "9")
 				)
@@ -128,7 +128,7 @@
 			)
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
 					(page "7")
 				)
@@ -170,7 +170,7 @@
 			)
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
 					(page "8")
 				)
@@ -212,7 +212,7 @@
 			)
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
 					(page "3")
 				)
@@ -254,7 +254,7 @@
 			)
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
 					(page "5")
 				)
@@ -296,7 +296,7 @@
 			)
 		)
 		(instances
-			(project "nexus"
+			(project "panda"
 				(path "/226c5870-4123-4efa-a2b3-b42d02f59bb7"
 					(page "2")
 				)

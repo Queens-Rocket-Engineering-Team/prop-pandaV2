@@ -8,10 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Nexus PCB")
-		(rev "0.1.0")
+		(title "PANDA")
+		(rev "1.0.0")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Rough Draft")
+		(comment 1 "Propulsion Actuation and Nonsensical Data Acquisition")
 	)
 	(layers
 		(0 "F.Cu" signal)
