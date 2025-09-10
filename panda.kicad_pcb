@@ -9,9 +9,9 @@
 	(paper "A4")
 	(title_block
 		(title "PANDA")
-		(rev "1.0.0")
+		(rev "1.1.0")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Propulsion Actuation and Nonsensical Data Acquisition")
+		(comment 1 "Propulsion Actuation and Nominal Data Acquisition")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -47283,7 +47283,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "PANDA\nPropulsion Actuation and Nominal Data Acquisition\nV1.0.0\n30 Jul 2025\nNoah Warren"
+	(gr_text "PANDA\nPropulsion Actuation and Nominal Data Acquisition\nV1.1.0\nSep 10 2025\nNoah Warren"
 		(at 111 149 0)
 		(layer "F.SilkS")
 		(uuid "f693c0c0-2a60-48fd-823c-a25f58d1b5b6")
