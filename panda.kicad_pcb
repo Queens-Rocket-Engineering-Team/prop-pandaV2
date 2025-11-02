@@ -700,7 +700,7 @@
 				)
 			)
 		)
-		(property "Value" "5m 1W"
+		(property "Value" "25m 1W"
 			(at 0 1.82 90)
 			(layer "F.Fab")
 			(uuid "2c50ba86-0df8-469a-900d-c8f0bd2d3d8a")
@@ -11169,7 +11169,7 @@
 				)
 			)
 		)
-		(property "Value" "INA187A3"
+		(property "Value" "INA187A1"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "2ed7fcfe-0fd8-4b78-a300-4a6830fb145b")
@@ -54625,6 +54625,15 @@
 		(uuid "5e5a738f-5bb9-4168-adbb-fd177c1ae442")
 	)
 	(via
+		(at 94.75 78.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "6bd9786b-8c69-49cd-af17-00d7556aaa41")
+	)
+	(via
 		(at 103.124 128.524)
 		(size 0.6)
 		(drill 0.3)
@@ -54796,7 +54805,7 @@
 		(uuid "bd08baff-9bf7-4bf5-974f-ae72396fa2af")
 	)
 	(via
-		(at 86 78)
+		(at 84 82)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")

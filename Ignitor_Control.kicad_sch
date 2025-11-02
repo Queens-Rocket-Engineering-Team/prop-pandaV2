@@ -2898,7 +2898,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5m 1W"
+		(property "Value" "25m 1W"
 			(at 165.1 110.4899 0)
 			(effects
 				(font
@@ -3319,7 +3319,7 @@
 				)
 			)
 		)
-		(property "Value" "INA187A3"
+		(property "Value" "INA187A1"
 			(at 129.54 105.3398 0)
 			(effects
 				(font
